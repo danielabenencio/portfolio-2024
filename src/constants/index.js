@@ -11,7 +11,7 @@ export const PROJECTS = [
     title: "Shopi E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication. This was achieved by integrating an external API widely used by many students forlearning purposes.",
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication. This was achieved by integrating an external API widely used by many students for learning purposes.",
     technologies: ["HTML", "TailwindCSS", "ReactJS"],
     link: "https://shopi-danielabenencio.netlify.app/",
   },
