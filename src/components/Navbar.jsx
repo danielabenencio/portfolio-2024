@@ -1,6 +1,7 @@
 import { FaLinkedin } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 import { GrDocumentDownload } from "react-icons/gr";
+import CV from "../assets/CV-Daniela-Benencio-2024.pdf"
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
            <a href="https://www.linkedin.com/in/daniela-benencio-56716914a/"><FaLinkedin /></a> 
           <a href="https://github.com/danielabenencio"><FaGithub /></a>
-            <GrDocumentDownload />
+          <a href={CV}><GrDocumentDownload /></a> 
         </div>
     </nav>
   )
